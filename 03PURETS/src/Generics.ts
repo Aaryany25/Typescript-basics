@@ -17,3 +17,8 @@ interface Bottle{
 function GymBottle<Bottle>(val:Bottle):Bottle{
     return val
 }
+// Generics in  Arrow functions
+const ArrowFunction  = <T>(val:T[]):T=>{
+const myIndex = 4 
+return val[myIndex] 
+}
